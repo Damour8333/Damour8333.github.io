@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Macondo', cursive;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:  1fr 300px;
+    
+}
+
+header{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:10px;
+    position: fixed;
+
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+}
+header h1{
+    margin-right: 500px;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+
+header a{
+    margin-left: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+header a:hover{
+    color: aqua;
+}
+.nav{
+    margin-top: 10px;
+}
+
+main{
+    grid-area: 1/1/3/4;
+    background: url(https://images.pexels.com/photos/3564304/pexels-photo-3564304.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-position: center;
+    background-size: cover ;
+    background-attachment:fixed;/*fixed*/
+    align-items: center;
+height: 100vh;
+display: flex;
+justify-content:center;
+flex-direction: column;
+border-bottom: 5px solid rgb(21, 89, 208);
+}
+main h1{
+    font-size: 50px;
+    color: rgb(21, 89, 208);
+    letter-spacing: 5px;
+}
+
+main p{
+    font-size: 25px;
+    color: rgb(21, 89, 208);
+    margin-top: 20px;
+}
+main button{
+    margin-top: 20px;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: rgb(21, 89, 208);
+}
+main button:hover{
+   color: #fff;
+   background: rgb(21, 89, 208);
+
+}
+
+/* https://fr.wix.com/website-template/view/html/2238?originUrl=https%3A%2F%2Ffr.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fcommunities%2Fnon-profit&tpClick=view_button
